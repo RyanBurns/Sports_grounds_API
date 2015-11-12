@@ -65,7 +65,7 @@ The data will be returned in JSON format,  here is the first line of the file in
 
 #Getting A List of Sports Facilities Nearby
 
-You want to get the users location data and search for sports facilities close to them. You use the longitude and latitude, with a POST method, using the following URL:
+If you want to get the users location data to search for sports facilities close to them. You use the longitude and latitude, with a POST method, using the following URL:
 
 http://galwaysportsfacilitiesapi.com/sports/closest-long-lat/
 
@@ -82,6 +82,19 @@ Limiting the number of results returned back would look like this:
 http://galwaysportsfacilitiesapi.com/sports/nearby-long-lat/3
 
 This returns the 6 closest parks to the longitude and latitude used in the POST method.
+
+#If you simply wanted a list of facilities based on certain search parameter such as "Rugby" or "Soccer" then you would use the HTTP GET method, here is an example URL:
+
+http://galwaysportsfacilitiesapi.com/sports/?[filter]=[parameter]
+
+Replace [filter] with a datset field entry, examples: Number, name, longitude, objectid.
+
+Also Replace [parameter] with the required results, like this:
+
+http://galwaysportsfacilitiesapi.com/sports/?TYPE=All+Weather+Pitch
+
+The above URL would return a list of all "All Weather Pitches" in Galway City, perfect if your favourite training is water-logged and unusable
+
 
 ##Conclusion
 This API would be useful if somebody made an application for sports people around Galway, my imagined user is somebody who wants to know which sportsgrounds are open to public use, and what facilities are there : G.A.A / Soccer / Both.
