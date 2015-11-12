@@ -71,7 +71,8 @@ http://galwaysportsfacilitiesapi.com/sports/closest-long-lat/
 
 This will display all of the sports facilities, begining with the sportsground that is closest to the longitude and latitude coordinates provided.
 
-to filter results returned by the POST method. This can be done using the following URL:
+#to filter results returned by the POST method.
+This can be done using the following URL:
 
 http://galwaysportsfacilitiesapi.com/sports/nearby-long-lat/[number]
 
@@ -83,7 +84,8 @@ http://galwaysportsfacilitiesapi.com/sports/nearby-long-lat/3
 
 This returns the 6 closest parks to the longitude and latitude used in the POST method.
 
-#If you simply wanted a list of facilities based on certain search parameter such as "Rugby" or "Soccer" then you would use the HTTP GET method, here is an example URL:
+#If you simply wanted a list of facilities based on certain search parameter
+such as "Rugby" or "Soccer" then you would use the HTTP GET method, here is an example URL:
 
 http://galwaysportsfacilitiesapi.com/sports/?[filter]=[parameter]
 
