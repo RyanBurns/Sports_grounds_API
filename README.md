@@ -38,6 +38,7 @@ Using the HTTP POST method, you can display a list of all the rugby facilities/s
 
 The data will be returned in JSON format,  here is the first line of the file in JSON format, this should illustrate how the data is displayed:
 
+```javascript
 [
   {
     "X": -9.13415204770846,
@@ -56,3 +57,5 @@ The data will be returned in JSON format,  here is the first line of the file in
   { ... },
   { ... }
 ]
+```
+
