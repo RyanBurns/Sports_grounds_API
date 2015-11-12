@@ -16,8 +16,8 @@ The CSV file contains 48 rows, there are 12 columns with the following headings
 
 | Heading       | Information          |
 | ------------- |:-------------:| 
-| X      | X Co-ordinate of the sports facility     | 
-| Y      | Y Co-ordinate of the sports facility      | 
+| X      | Longitude of the sports facility to 13 decimal places     | 
+| Y      | Latitude of the sports facility to 13 decimal places      | 
 | OBJECTID    | A numerical id for the sports facility       |   
 | NUMBER      | Sports facility number      |
 | TYPE      | G.AA/ Rugby/ Football     | 
@@ -31,10 +31,13 @@ The CSV file contains 48 rows, there are 12 columns with the following headings
 
 ## List of Rugby Grounds in Galway City
 You can get a list of Rugby grounds in Galway City using the GET method at the following URL:
-*http://galwaysportsfacilitiesapi.com/rugby/[all]*
+*http://galwaysportsfacilitiesapi.com/sports/[all]*
 
-Using the HTTP POST method, you can display a list of all the rugby facilities/sports grounds in Galway City:
-*http://galwaysportsfacilitiesapi.com/rugby/[all]*
+##Using the Datset
+#Return all rugby facilities
+
+Using the HTTP POST method, you can display a list of all the facilities/sports grounds in Galway City:
+*http://galwaysportsfacilitiesapi.com/sports/[all]*
 
 The data will be returned in JSON format,  here is the first line of the file in JSON format, this should illustrate how the data is displayed:
 
@@ -58,4 +61,28 @@ The data will be returned in JSON format,  here is the first line of the file in
   { ... }
 ]
 ```
+
+#Getting A List of Sports Facilities Nearby
+
+You want to get the users location data and search for sports facilities close to them. You use the longitude and latitude, with a POST method, using the following URL:
+
+http://galwaysportsfacilitiesapi.com/sports/closest-long-lat/
+
+This will display all of the sports facilities, begining with the sportsground that is closest to the longitude and latitude coordinates provided.
+
+to filter results returned by the POST method. This can be done using the following URL:
+
+http://galwaysportsfacilitiesapi.com/sports/nearby-long-lat/[number]
+
+Replace [number] with the number of sports grounds you want to be given back. This again will display all sports facilities nearby except this time it will only return the desired amount, and will list them in order of proximity.
+
+Limiting the number of results returned back would look like this:
+
+http://galwaysportsfacilitiesapi.com/sports/nearby-long-lat/3
+
+This returns the 6 closest parks to the longitude and latitude used in the POST method.
+
+##Conclusion
+This API would be useful if somebody made an application for sports people around Galway, my imagined user is somebody who wants to know which sportsgrounds are open to public use, and what facilities are there : G.A.A / Soccer / Both.
+
 
