@@ -35,7 +35,7 @@ You can get a list of Rugby grounds in Galway City using the GET method at the f
 *http://galwaysportsfacilitiesapi.com/sports/[all]*
 
 ##Using the Datset
-#Return all rugby facilities
+#Return all sports facilities
 
 Using the HTTP POST method, you can display a list of all the facilities/sports grounds in Galway City:
 *http://galwaysportsfacilitiesapi.com/sports/[all]*
