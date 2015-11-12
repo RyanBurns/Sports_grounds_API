@@ -69,7 +69,7 @@ If you want to get the users location data to search for sports facilities close
 
 http://galwaysportsfacilitiesapi.com/sports/closest-long-lat/
 
-This will display all of the sports facilities, begining with the sportsground that is closest to the longitude and latitude coordinates provided.
+This will display all of the sports facilities, begining with the sportsground that is closest to the longitude and latitude co-ordinates provided.
 
 #To filter results returned by the POST method.
 This can be done using the following URL:
