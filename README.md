@@ -14,9 +14,18 @@ This dataset is of .CSV file type, and was downloaded from  https://data.gov.ie/
 The CSV file contains 48 rows, there are 12 columns with the following headings
 
 
-| Heading       | Are          |
+| Heading       | Information          |
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned | 
-| col 2 is      | centered      | 
-| zebra stripes | are neat      |   
+| X      | X Co-ordinate of the sports facility     | 
+| Y      | Y Co-ordinate of the sports facility      | 
+| OBJECTID    | A numerical id for the sports facility       |   
+| NUMBER      | Sports facility number      |
+| TYPE      | G.AA/ Rugby/ Football     | 
+| NAME      | Name of Sports Facilty      | 
+| Lat     | Latitude of sports facility     | 
+| Long      | Longitude of sports facility      | 
+| EastITM     |Irish Transverse Mercator (ITM) East value      |
+| NorthITM      | Irish Transverse Mercator (ITM) North vaule      |
+| EastIG      | East Irish Grid Reference number      | 
+| NorthIG     | North Irish Grid Reference number     |
 
