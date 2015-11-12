@@ -1,7 +1,7 @@
 ## Data representation and querying project
 #Ryan Burns - G00296445
 My API to be used with a public sports grounds dataset in Galway
-May be found at *https://data.gov.ie/data* 
+May be found at *www.data.gov.ie/data* 
 Specifically at *https://data.gov.ie/dataset/galway-city-public-sports-facilities/*
 
 The Public Sports grounds in Galway City dataset contains information about all of the sports facilities around the city.
