@@ -14,4 +14,9 @@ This dataset is of .CSV file type, and was downloaded from  https://data.gov.ie/
 The CSV file contains 48 rows, there are 12 columns with the following headings
 
 
+| Heading       | Are          |
+| ------------- |:-------------:| 
+| col 3 is      | right-aligned | 
+| col 2 is      | centered      | 
+| zebra stripes | are neat      |   
 
