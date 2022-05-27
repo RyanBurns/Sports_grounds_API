@@ -12,7 +12,7 @@ This dataset could be used well with a mobile app, for users looking to find the
 
 This dataset is of .CSV file type, and was downloaded from  https://data.gov.ie/dataset/galway-city-public-sports-facilities
 
-The CSV file contains 48 rows, there are 12 columns with the following headings
+The CSV file contains 48 rows, there are 12 columns with the following headings.
 
 
 | Heading       | Information          |
